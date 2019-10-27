@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <header class="section-header">
+        <nav class="section-header-nav">
+            <div class="section-header-nav-navigation">
+                <div class="section-header-nav-navigation-item"></div>
+                <div class="section-header-nav-navigation-item"></div>
+                <div class="section-header-nav-navigation-item"></div>
+            </div>
+            <div class="section-header-nav-logo">
+                <span>CodeJam - Pallete</span>
+            </div>
+            <div class="section-header-nav-menu">
+                <ul class="section-header-nav-menu-item">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="section-main">
+        <div class="section-main-sidebar">
+            <div class="section-main-sidebar-tools">
+                <ul class="section-main-sidebar-tools-list">
+                    <li><img src="assets/icons/Vector1.png" alt="img1">Paint bucket</li>
+                    <li><img src="assets/icons/Vector2.png" alt="img2">Choose color</li>
+                    <li><img src="assets/icons/Vector3.png" alt="img3">Move</li>
+                    <li><img src="assets/icons/Vector4.png" alt="img4">Transform</li>
+                </ul>
+            </div>
+            <div class="section-main-sidebar-colors">
+                <ul class="section-main-sidebar-colors-list">
+                    <li class="section-main-sidebar-colors-list__item">
+                        <div class="section-main-sidebar-colors-list__item-round gray"></div>
+                        Current color
+                    </li>
+                    <li class="section-main-sidebar-colors-list__item">
+                        <div class="section-main-sidebar-colors-list__item-round green"></div>
+                        Previous color
+                    </li>
+                    <li class="section-main-sidebar-colors-list__item">
+                        <div class="section-main-sidebar-colors-list__item-round red"></div>
+                        Red
+                    </li>
+                    <li class="section-main-sidebar-colors-list__item">
+                        <div class="section-main-sidebar-colors-list__item-round blue"></div>
+                        Blue
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <canvas id="canvas" width="512" height="512">
+
+        </canvas>
+        <div class="section-main-switch">
+            <button id="btn_4x4" class="section-main-switch__button">4x4</button>
+            <button id="btn_32x32" class="section-main-switch__button">32x32</button>
+            <button id="btn_img" class="section-main-switch__button">Image</button>
+        </div>
+
+    </main>
+</body>
+<script src="js/main.js"></script>
+
+</html>
