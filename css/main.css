@@ -14,6 +14,9 @@ body {
     align-items: center;
     padding: 10px 0px 15px 10px;
 }
+.section-header-nav-navigation{
+    cursor: pointer;
+}
 .section-header-nav-navigation-item{
     width: 20px;
     border-bottom: solid #000000 2px;
@@ -22,6 +25,7 @@ body {
 .section-header-nav-logo {
     margin-left: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 .section-main{
     margin-top: 25px;
@@ -42,8 +46,9 @@ body {
 }
 .section-main-sidebar-tools-list li, .section-main-sidebar-colors-list__item{
     display: flex;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     align-items: center;
+    cursor: pointer;
 }
 .section-main-sidebar-tools-list img{
     margin-right: 33px;
